@@ -1,0 +1,51 @@
+
+#carousel {
+    max-height: 350px;
+    overflow: hidden;
+    
+}
+
+.carousel-caption {
+    bottom: unset;
+    top: 50px;
+}
+
+#carousel img {
+    margin-top: -200px;
+}
+
+
+.monCarousel .slide {
+    position: relative;
+}
+.monCarousel .slide p {
+    position: absolute;
+    bottom: 50px;
+    color: white;
+    padding:20px;
+    text-align: center;
+    font-size: 21px;
+}
+
+.container .row {
+
+    text-align: center;
+    color:black;
+    /*font-size: 20px;*/
+    margin-bottom: 5px;
+    /*font-weight: bold;*/
+}
+
+.container img {
+    height: 150px;
+
+
+}
+
+.row {
+    --bs-gutter-x: 0;
+}   
+
+.container  .text span {
+    font-weight: bold;
+}
